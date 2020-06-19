@@ -1,10 +1,11 @@
 <template>
-    <p></p>
+    <p>{{lll}}</p>
 </template>
 
 <script>
     export default {
-        name: "new1"
+        name: "new1",
+        data(){return{lll:'d'}},
     }
 </script>
 
